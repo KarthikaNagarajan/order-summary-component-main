@@ -1,0 +1,79 @@
+@import url('https://fonts.googleapis.com/css2?family=Red+Hat+Display&display=swap'); 
+
+body{
+    font-family: 'Red Hat Display', sans-serif;
+    font-size: 14px;
+    background: url('./images/pattern-background-desktop.svg') hsl(225, 100%, 94%);
+    background-repeat:no-repeat;
+    color:hsl(223, 47%, 23%)
+
+}
+.card{
+    display: flex;
+    flex-direction: column;
+    width: 350px;
+    height:550px;
+    border: none;
+    border-radius: 10px;
+    margin: 5% auto;
+    background-color: white
+}
+.container{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    margin: 15px 30px
+}
+.card .image{
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+.header{
+    font-size: 20px;
+    margin-bottom: 0;
+}
+.plan{
+    position: relative;
+    background-color:rgb(245, 245, 250) ;
+    padding: 20px;
+    height:50px;
+    border-radius:5px;
+}
+.plan img{
+    position:absolute;
+    left:15px
+}
+.plan-details{
+    position:absolute;
+    left:75px
+}
+.plan-change{
+    position: absolute;
+    right:20px;
+    color: hsl(245, 75%, 52%);
+    top:30px;
+    
+ }
+.link{
+    text-decoration: none;
+    font-size: bold;
+}
+button{
+    margin: 10% 0;
+    padding:15px 20px;
+    border: none;
+    border-radius:10px;
+    color:white;
+    background-color:hsl(245, 75%, 52%);
+    box-shadow: 0 5px 10px hsl(224, 23%, 55%)
+}
+button:hover{
+    cursor:pointer
+}
+.attribution { 
+    font-size: 16px; 
+    text-align: center; 
+} 
+.attribution a {
+     color: hsl(228, 45%, 44%);
+}
