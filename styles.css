@@ -51,12 +51,19 @@ body{
     position: absolute;
     right:20px;
     color: hsl(245, 75%, 52%);
-    top:30px;
-    
+    top:30px; 
+ }
+ .plan-change:hover{
+     text-decoration: none;
+     color: hsl(224, 23%, 55%);
  }
 .link{
     text-decoration: none;
     font-size: bold;
+}
+.link:hover{
+    text-decoration: none;
+    color :black;
 }
 button{
     margin: 10% 0;
@@ -68,7 +75,8 @@ button{
     box-shadow: 0 5px 10px hsl(224, 23%, 55%)
 }
 button:hover{
-    cursor:pointer
+    cursor:pointer;
+    background-color: hsl(224, 23%, 55%);
 }
 .attribution { 
     font-size: 16px; 
